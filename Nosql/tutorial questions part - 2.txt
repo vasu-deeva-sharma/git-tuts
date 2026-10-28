@@ -1,0 +1,28 @@
+UNIT–III: Document Databases
+1. Explain how transactions work in document databases and describe the limitations of transactions involving multiple operations.
+2. Explain the query features of document databases, including MongoDB queries and CouchDB views.
+3. Explain the concepts of read scaling and write scaling in document databases, including the role of sharding.
+4. Explain the major use cases of document databases and identify situations in which document databases may not be suitable.
+5. Explain how replica sets improve the availability of MongoDB databases.
+UNIT–IV: Column-Family Data Stores
+1. A college application stores student profiles and examination orders. Apply the column-family concept to organize these two types of related data.
+2. Explain the concept of a Column-Family Data Store with a suitable example.
+3. Design a customer data structure containing different columns for two customers with non-uniform information using a Column-Family Data Store.
+4. Explain the difference between a Standard Column Family and a Super Column Family.
+5. Design a Cassandra data structure for storing student academic details, including student ID, name, department, semester, and examination marks. Illustrate the structure with a suitable example.
+6. Describe the structure of a column, row, and column family in Cassandra.
+7. Apply the concept of Super Columns to organize a customer's address and billing information in Cassandra.
+8. Describe the concept of Replication Factor and explain its importance in Cassandra.
+9. Apply the concept of Replication Factor to determine how data is distributed when the replication factor is set to 3 in a Cassandra cluster.
+10. Explain replication factor and illustrate its role in storing data across multiple nodes.
+UNIT–V: Key-Value and Graph Databases
+1. Describe the basic operations performed in a Key-Value database, such as GET, PUT, and DELETE.
+2. Demonstrate how you would design keys to separately store UserProfile and ShoppingCart information in the same bucket.
+3. Define a graph database and explain its basic components.
+4. Design a graph containing five students and three courses. Show the nodes and ENROLLED_IN relationships.
+5. Explain the role of N, R, and W parameters in Riak.
+6. Apply the key-value data model to design a session-management system for an online banking application. Illustrate suitable keys and corresponding values for storing and retrieving user session information.
+7. What is consistency in a graph database?
+8. Construct a graph for five employees working on two projects. Show how to identify employees who worked on the same project.
+9. Design a book recommendation graph using readers, books, and LIKES relationships.
+10. Explain the query limitations of Key-Value databases when searching for attributes inside values.
